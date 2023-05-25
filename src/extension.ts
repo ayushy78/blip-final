@@ -82,7 +82,7 @@ function genComment(
 		// eslint-disable-next-line @typescript-eslint/naming-convention
 		'Content-Type': 'application/json'
 	};
-	axios.post('http://fb67-35-202-147-206.ngrok.io/', { code: code }, {
+	axios.post('http://fa57-34-83-15-116.ngrok.io/', { code: code }, {
 		headers: headers
 	})
 		.then(function (response) {
